@@ -1,5 +1,4 @@
 const express = require('express');
-const upload = require('../utils/multer');
 const User = require('../models/user');
 const auth = require('../middlewares/auth');
 const Movie = require('../models/movie');
