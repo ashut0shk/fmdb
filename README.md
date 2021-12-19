@@ -38,7 +38,7 @@ FMDB, is a free (as in freedom) movie database backend, subset of TMDB / IMDB or
 FMDB uses a number of open source projects to function properly:
 * [MongoDB](https://www.mongodb.com/) - A document-oriented, destructured database used to store the application data.
 * [ExpressJS](https://expressjs.com/) - Blazing node.js network app framework.
-* [nodeJS](https://nodejs.org/) - A JavaScript runtime built on Chromium's V8
+* [node.JS](https://nodejs.org/) - A JavaScript runtime built on Chromium's V8
 
 ### Installation
 
@@ -78,9 +78,10 @@ FMDB is currently extended with the following plugins. Instructions on how to us
 | Plugin | README |
 | ------ | ------ |
 | express | [plugins/express/README.md](https://github.com/expressjs/express/blob/master/Readme.md) |
+| bcryptjs | [plugins/bcryptjs/README.md](https://github.com/dcodeIO/bcrypt.js/blob/master/README.md) |
+| validator | [plugins/validator/README.md](https://github.com/validatorjs/validator.js/blob/master/README.md) |
 | jsonwebtoken | [plugins/jsonwebtoken/README.md](https://github.com/auth0/node-jsonwebtoken/blob/master/README.md) |
 | mongoose | [plugins/mongoose/README.md](https://github.com/Automattic/mongoose/blob/master/README.md) |
-| multer | [plugins/multer/README.md](https://github.com/expressjs/multer/blob/master/README.md)|
 | nodemon | [plugins/nodemon/README.md](https://github.com/remy/nodemon/blob/master/README.md) |
 
 
