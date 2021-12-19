@@ -1,0 +1,34 @@
+{
+  "name": "fmdb",
+  "version": "1.0.1",
+  "description": "a free movie database",
+  "main": "server/src/index.js",
+  "scripts": {
+    "server": "cd server && npm install && npm run dev",
+    "start": "cd server && npm install && npm run start",
+    "build": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashut0shk/fmdb.git"
+  },
+  "keywords": [],
+  "author": "Ashutosh K <ashutosh.kr@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashut0shk/fmdb/issues"
+  },
+  "homepage": "https://github.com/ashut0shk/fmdb#readme",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
