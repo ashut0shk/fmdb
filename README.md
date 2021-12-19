@@ -1,6 +1,11 @@
 <h1 align="center">
 FMDB
 </h1>
+
+<p align="center">
+  <img src="https://github.com/ashut0shk/fmdb/raw/main/assets/icons/main-icon.png" />
+</p>
+
 <p align="center">
 MongoDB, Expressjs, Nodejs
 </p>
@@ -16,7 +21,6 @@ FMDB, is a free (as in freedom) movie database backend, subset of TMDB / IMDB or
   - Signup as a registered user
 
 
-<img src="https://github.com/ashut0shk/fmdb/raw/main/assets/icons/main-icon.png" />
 
 
 # Features!
